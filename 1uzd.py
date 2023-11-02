@@ -33,8 +33,8 @@ class AAA:
                num-=value
        return result
 
-skaitlis=2
-konvertet=AAA()
+skaitlis=2023
+konvertet=AAA()   #define jaunu objektu
 rom_sks=konvertet.uz_romu(skaitlis)
 print(f"{skaitlis} romiešu ciparos ir {rom_sks}.")
     
